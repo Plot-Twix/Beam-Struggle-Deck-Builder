@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\proj_tcc\\proj_tcc\\form_verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_verusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_VerUsuario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Proj_TCC\\Form_VerUsuario.cs",
+              "RelativeDocumentMoniker": "Proj_TCC\\Form_VerUsuario.cs",
+              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Proj_TCC\\Form_VerUsuario.cs [Projeto]",
+              "RelativeToolTip": "Proj_TCC\\Form_VerUsuario.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T21:15:48.558Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

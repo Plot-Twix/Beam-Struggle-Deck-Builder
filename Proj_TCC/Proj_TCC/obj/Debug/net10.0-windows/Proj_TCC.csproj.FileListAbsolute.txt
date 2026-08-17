@@ -18,3 +18,4 @@ C:\Users\Victor Marques\Desktop\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj
 C:\Users\Victor Marques\Desktop\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.Lista_de_Decks.resources
 C:\Users\Victor Marques\Desktop\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.Form_CriarConta.resources
 C:\Users\Victor Marques\Desktop\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.Form_Login.resources
+C:\Users\Victor Marques\Desktop\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.Form_VerUsuario.resources

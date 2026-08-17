@@ -56,7 +56,7 @@
             menuStrip_Principal.Items.AddRange(new ToolStripItem[] { minhaContaToolStripMenuItem, meusDecksToolStripMenuItem, procurarCartasToolStripMenuItem, ajudaToolStripMenuItem });
             menuStrip_Principal.Location = new Point(0, 88);
             menuStrip_Principal.Name = "menuStrip_Principal";
-            menuStrip_Principal.Size = new Size(248, 24);
+            menuStrip_Principal.Size = new Size(368, 24);
             menuStrip_Principal.TabIndex = 1;
             menuStrip_Principal.Text = "menuStrip1";
             // 
@@ -78,6 +78,7 @@
             loginToolStripMenuItem.Name = "loginToolStripMenuItem";
             loginToolStripMenuItem.Size = new Size(186, 22);
             loginToolStripMenuItem.Text = "Login";
+            loginToolStripMenuItem.Click += loginToolStripMenuItem_Click;
             // 
             // criarContaToolStripMenuItem
             // 

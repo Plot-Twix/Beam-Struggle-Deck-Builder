@@ -31,17 +31,18 @@
             controleComum1 = new ControleComum();
             vScrollBar1 = new VScrollBar();
             groupBox1 = new GroupBox();
-            pictureBox1 = new PictureBox();
-            groupBox2 = new GroupBox();
-            textBox1 = new TextBox();
+            textBox3 = new TextBox();
+            button1 = new Button();
             groupBox3 = new GroupBox();
             textBox2 = new TextBox();
+            groupBox2 = new GroupBox();
+            textBox1 = new TextBox();
+            pictureBox1 = new PictureBox();
             lista_de_Decks1 = new Lista_de_Decks();
-            button1 = new Button();
             groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // controleComum1
@@ -63,8 +64,9 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top;
-            groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(lista_de_Decks1);
+            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(groupBox3);
             groupBox1.Controls.Add(groupBox2);
             groupBox1.Controls.Add(pictureBox1);
@@ -75,30 +77,21 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Visualizar Usuário";
             // 
-            // pictureBox1
+            // textBox3
             // 
-            pictureBox1.Location = new Point(6, 59);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 100);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            textBox3.Location = new Point(3, 19);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(100, 23);
+            textBox3.TabIndex = 5;
             // 
-            // groupBox2
+            // button1
             // 
-            groupBox2.Controls.Add(textBox1);
-            groupBox2.Location = new Point(134, 59);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(628, 51);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Nome de Usuário";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(6, 22);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(616, 23);
-            textBox1.TabIndex = 0;
+            button1.Location = new Point(656, 22);
+            button1.Name = "button1";
+            button1.Size = new Size(106, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Salvar Mudanças";
+            button1.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -116,6 +109,33 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(616, 23);
             textBox2.TabIndex = 0;
+            textBox2.Text = "123456";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(textBox1);
+            groupBox2.Location = new Point(134, 59);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(628, 51);
+            groupBox2.TabIndex = 1;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Nome de Usuário";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(6, 22);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(616, 23);
+            textBox1.TabIndex = 0;
+            textBox1.Text = "Victor Marques";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(6, 59);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(100, 100);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // lista_de_Decks1
             // 
@@ -123,17 +143,8 @@
             lista_de_Decks1.GroupBoxText = "groupBox1";
             lista_de_Decks1.Location = new Point(6, 173);
             lista_de_Decks1.Name = "lista_de_Decks1";
-            lista_de_Decks1.Size = new Size(750, 281);
-            lista_de_Decks1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(656, 22);
-            button1.Name = "button1";
-            button1.Size = new Size(106, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Salvar Mudanças";
-            button1.UseVisualStyleBackColor = true;
+            lista_de_Decks1.Size = new Size(756, 227);
+            lista_de_Decks1.TabIndex = 6;
             // 
             // Form_VerUsuario
             // 
@@ -146,11 +157,12 @@
             Name = "Form_VerUsuario";
             Text = "Form_VerUsuario";
             groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
+            groupBox1.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -161,11 +173,12 @@
         private VScrollBar vScrollBar1;
         private GroupBox groupBox1;
         private PictureBox pictureBox1;
-        private GroupBox groupBox3;
-        private TextBox textBox2;
         private GroupBox groupBox2;
         private TextBox textBox1;
         private Button button1;
+        private GroupBox groupBox3;
+        private TextBox textBox2;
+        private TextBox textBox3;
         private Lista_de_Decks lista_de_Decks1;
     }
 }

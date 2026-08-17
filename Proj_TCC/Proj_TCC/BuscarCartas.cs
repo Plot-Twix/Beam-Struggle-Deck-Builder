@@ -8,24 +8,24 @@ using System.Windows.Forms;
 
 namespace Proj_TCC
 {
-    public partial class Form_VerUsuario : Form
+    public partial class BuscarCartas : Form
     {
-        public Form_VerUsuario()
+        public BuscarCartas()
         {
             InitializeComponent();
         }
 
-        private void lista_de_Decks1_Load(object sender, EventArgs e)
+        private void tipoDeCardToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void monstroNormalToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void linkToolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
         }

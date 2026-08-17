@@ -18,7 +18,12 @@ namespace Proj_TCC
 
         private void label_Letreiro_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

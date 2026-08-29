@@ -72,6 +72,7 @@
             conferirInformaçõesToolStripMenuItem.Name = "conferirInformaçõesToolStripMenuItem";
             conferirInformaçõesToolStripMenuItem.Size = new Size(186, 22);
             conferirInformaçõesToolStripMenuItem.Text = "Conferir Informações";
+            conferirInformaçõesToolStripMenuItem.Click += conferirInformaçõesToolStripMenuItem_Click;
             // 
             // loginToolStripMenuItem
             // 

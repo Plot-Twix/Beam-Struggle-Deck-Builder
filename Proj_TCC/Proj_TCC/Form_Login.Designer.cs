@@ -28,36 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
+            pan_Painel = new Panel();
+            linkLabel_CriarConta = new LinkLabel();
+            label_SemConta = new Label();
+            linkLabel_RecuperarSenha = new LinkLabel();
+            label_EsqueceuSenha = new Label();
+            groupBox_Senha = new GroupBox();
+            textBox_Senha = new TextBox();
             label_Login = new Label();
             groupBox_Email = new GroupBox();
-            textBox1 = new TextBox();
-            groupBox1 = new GroupBox();
-            textBox2 = new TextBox();
-            label1 = new Label();
-            linkLabel1 = new LinkLabel();
-            label2 = new Label();
-            linkLabel2 = new LinkLabel();
-            panel1.SuspendLayout();
+            textBox_Email = new TextBox();
+            button_FazerLogin = new Button();
+            pan_Painel.SuspendLayout();
+            groupBox_Senha.SuspendLayout();
             groupBox_Email.SuspendLayout();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // pan_Painel
             // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            panel1.BackColor = SystemColors.ControlLight;
-            panel1.Controls.Add(linkLabel2);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(linkLabel1);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(groupBox1);
-            panel1.Controls.Add(label_Login);
-            panel1.Controls.Add(groupBox_Email);
-            panel1.Location = new Point(192, 12);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(412, 413);
-            panel1.TabIndex = 0;
+            pan_Painel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            pan_Painel.BackColor = SystemColors.ControlLight;
+            pan_Painel.Controls.Add(button_FazerLogin);
+            pan_Painel.Controls.Add(linkLabel_CriarConta);
+            pan_Painel.Controls.Add(label_SemConta);
+            pan_Painel.Controls.Add(linkLabel_RecuperarSenha);
+            pan_Painel.Controls.Add(label_EsqueceuSenha);
+            pan_Painel.Controls.Add(groupBox_Senha);
+            pan_Painel.Controls.Add(label_Login);
+            pan_Painel.Controls.Add(groupBox_Email);
+            pan_Painel.Location = new Point(192, 12);
+            pan_Painel.Name = "pan_Painel";
+            pan_Painel.Size = new Size(412, 413);
+            pan_Painel.TabIndex = 0;
+            // 
+            // linkLabel_CriarConta
+            // 
+            linkLabel_CriarConta.AutoSize = true;
+            linkLabel_CriarConta.Location = new Point(301, 370);
+            linkLabel_CriarConta.Name = "linkLabel_CriarConta";
+            linkLabel_CriarConta.Size = new Size(65, 15);
+            linkLabel_CriarConta.TabIndex = 7;
+            linkLabel_CriarConta.TabStop = true;
+            linkLabel_CriarConta.Text = "Criar conta";
+            // 
+            // label_SemConta
+            // 
+            label_SemConta.AutoSize = true;
+            label_SemConta.Location = new Point(58, 370);
+            label_SemConta.Name = "label_SemConta";
+            label_SemConta.Size = new Size(118, 15);
+            label_SemConta.TabIndex = 6;
+            label_SemConta.Text = "Não tem uma conta?";
+            // 
+            // linkLabel_RecuperarSenha
+            // 
+            linkLabel_RecuperarSenha.AutoSize = true;
+            linkLabel_RecuperarSenha.Location = new Point(275, 181);
+            linkLabel_RecuperarSenha.Name = "linkLabel_RecuperarSenha";
+            linkLabel_RecuperarSenha.Size = new Size(94, 15);
+            linkLabel_RecuperarSenha.TabIndex = 5;
+            linkLabel_RecuperarSenha.TabStop = true;
+            linkLabel_RecuperarSenha.Text = "Recuperar senha";
+            // 
+            // label_EsqueceuSenha
+            // 
+            label_EsqueceuSenha.AutoSize = true;
+            label_EsqueceuSenha.Location = new Point(58, 181);
+            label_EsqueceuSenha.Name = "label_EsqueceuSenha";
+            label_EsqueceuSenha.Size = new Size(117, 15);
+            label_EsqueceuSenha.TabIndex = 4;
+            label_EsqueceuSenha.Text = "Esqueceu sua senha?";
+            // 
+            // groupBox_Senha
+            // 
+            groupBox_Senha.Anchor = AnchorStyles.Top;
+            groupBox_Senha.Controls.Add(textBox_Senha);
+            groupBox_Senha.Location = new Point(55, 125);
+            groupBox_Senha.Name = "groupBox_Senha";
+            groupBox_Senha.Size = new Size(314, 53);
+            groupBox_Senha.TabIndex = 3;
+            groupBox_Senha.TabStop = false;
+            groupBox_Senha.Text = "Senha";
+            // 
+            // textBox_Senha
+            // 
+            textBox_Senha.Dock = DockStyle.Fill;
+            textBox_Senha.Location = new Point(3, 19);
+            textBox_Senha.Name = "textBox_Senha";
+            textBox_Senha.Size = new Size(308, 23);
+            textBox_Senha.TabIndex = 0;
             // 
             // label_Login
             // 
@@ -74,7 +133,7 @@
             // groupBox_Email
             // 
             groupBox_Email.Anchor = AnchorStyles.Top;
-            groupBox_Email.Controls.Add(textBox1);
+            groupBox_Email.Controls.Add(textBox_Email);
             groupBox_Email.Location = new Point(55, 66);
             groupBox_Email.Name = "groupBox_Email";
             groupBox_Email.Size = new Size(314, 53);
@@ -82,99 +141,52 @@
             groupBox_Email.TabStop = false;
             groupBox_Email.Text = "E-mail";
             // 
-            // textBox1
+            // textBox_Email
             // 
-            textBox1.Dock = DockStyle.Fill;
-            textBox1.Location = new Point(3, 19);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(308, 23);
-            textBox1.TabIndex = 0;
+            textBox_Email.Dock = DockStyle.Fill;
+            textBox_Email.Location = new Point(3, 19);
+            textBox_Email.Name = "textBox_Email";
+            textBox_Email.Size = new Size(308, 23);
+            textBox_Email.TabIndex = 0;
             // 
-            // groupBox1
+            // button_FazerLogin
             // 
-            groupBox1.Anchor = AnchorStyles.Top;
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Location = new Point(55, 125);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(314, 53);
-            groupBox1.TabIndex = 3;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Senha";
-            // 
-            // textBox2
-            // 
-            textBox2.Dock = DockStyle.Fill;
-            textBox2.Location = new Point(3, 19);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(308, 23);
-            textBox2.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(58, 181);
-            label1.Name = "label1";
-            label1.Size = new Size(117, 15);
-            label1.TabIndex = 4;
-            label1.Text = "Esqueceu sua senha?";
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(275, 181);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(94, 15);
-            linkLabel1.TabIndex = 5;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Recuperar senha";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(58, 370);
-            label2.Name = "label2";
-            label2.Size = new Size(118, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Não tem uma conta?";
-            // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(301, 370);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(65, 15);
-            linkLabel2.TabIndex = 7;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Criar conta";
+            button_FazerLogin.Location = new Point(120, 235);
+            button_FazerLogin.Name = "button_FazerLogin";
+            button_FazerLogin.Size = new Size(162, 39);
+            button_FazerLogin.TabIndex = 8;
+            button_FazerLogin.Text = "Fazer Login";
+            button_FazerLogin.UseVisualStyleBackColor = true;
             // 
             // Form_Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panel1);
+            Controls.Add(pan_Painel);
             Name = "Form_Login";
             Text = "Form_Login";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            pan_Painel.ResumeLayout(false);
+            pan_Painel.PerformLayout();
+            groupBox_Senha.ResumeLayout(false);
+            groupBox_Senha.PerformLayout();
             groupBox_Email.ResumeLayout(false);
             groupBox_Email.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panel1;
+        private Panel pan_Painel;
         private Label label_Login;
         private GroupBox groupBox_Email;
-        private TextBox textBox1;
-        private LinkLabel linkLabel1;
-        private Label label1;
-        private GroupBox groupBox1;
-        private TextBox textBox2;
-        private LinkLabel linkLabel2;
-        private Label label2;
+        private TextBox textBox_Email;
+        private LinkLabel linkLabel_RecuperarSenha;
+        private Label label_EsqueceuSenha;
+        private GroupBox groupBox_Senha;
+        private TextBox textBox_Senha;
+        private LinkLabel linkLabel_CriarConta;
+        private Label label_SemConta;
+        private Button button_FazerLogin;
     }
 }

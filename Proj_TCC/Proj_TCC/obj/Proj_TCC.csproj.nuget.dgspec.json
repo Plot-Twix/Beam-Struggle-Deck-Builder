@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj": {}
+    "C:\\Users\\Victor Marques\\Desktop\\clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj": {
+    "C:\\Users\\Victor Marques\\Desktop\\clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj",
+        "projectUniqueName": "C:\\Users\\Victor Marques\\Desktop\\clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj",
         "projectName": "Proj_TCC",
-        "projectPath": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj",
+        "projectPath": "C:\\Users\\Victor Marques\\Desktop\\clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj",
         "packagesPath": "C:\\Users\\Victor Marques\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor Marques\\Desktop\\Proj_TCC\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\obj\\",
+        "outputPath": "C:\\Users\\Victor Marques\\Desktop\\clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

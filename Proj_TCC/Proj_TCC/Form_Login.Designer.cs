@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             pan_Painel = new Panel();
+            button_FazerLogin = new Button();
             linkLabel_CriarConta = new LinkLabel();
             label_SemConta = new Label();
             linkLabel_RecuperarSenha = new LinkLabel();
@@ -38,7 +39,6 @@
             label_Login = new Label();
             groupBox_Email = new GroupBox();
             textBox_Email = new TextBox();
-            button_FazerLogin = new Button();
             pan_Painel.SuspendLayout();
             groupBox_Senha.SuspendLayout();
             groupBox_Email.SuspendLayout();
@@ -61,6 +61,16 @@
             pan_Painel.Size = new Size(412, 413);
             pan_Painel.TabIndex = 0;
             // 
+            // button_FazerLogin
+            // 
+            button_FazerLogin.Location = new Point(120, 235);
+            button_FazerLogin.Name = "button_FazerLogin";
+            button_FazerLogin.Size = new Size(162, 39);
+            button_FazerLogin.TabIndex = 8;
+            button_FazerLogin.Text = "Fazer Login";
+            button_FazerLogin.UseVisualStyleBackColor = true;
+            button_FazerLogin.Click += button_FazerLogin_Click;
+            // 
             // linkLabel_CriarConta
             // 
             linkLabel_CriarConta.AutoSize = true;
@@ -70,6 +80,7 @@
             linkLabel_CriarConta.TabIndex = 7;
             linkLabel_CriarConta.TabStop = true;
             linkLabel_CriarConta.Text = "Criar conta";
+            linkLabel_CriarConta.LinkClicked += linkLabel_CriarConta_LinkClicked;
             // 
             // label_SemConta
             // 
@@ -149,19 +160,11 @@
             textBox_Email.Size = new Size(308, 23);
             textBox_Email.TabIndex = 0;
             // 
-            // button_FazerLogin
-            // 
-            button_FazerLogin.Location = new Point(120, 235);
-            button_FazerLogin.Name = "button_FazerLogin";
-            button_FazerLogin.Size = new Size(162, 39);
-            button_FazerLogin.TabIndex = 8;
-            button_FazerLogin.Text = "Fazer Login";
-            button_FazerLogin.UseVisualStyleBackColor = true;
-            // 
             // Form_Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(800, 450);
             Controls.Add(pan_Painel);
             Name = "Form_Login";

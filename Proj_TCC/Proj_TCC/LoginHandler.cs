@@ -34,6 +34,10 @@ namespace Proj_TCC
                 string senha = GetInfo("senha", text);
 
                 // lógica para buscar as informações do usuário no banco de dados usando o userId
+
+                /* Crítca postergada: validação de email e senha; Em estágios iniciais de desenvolvimento, as validações não serão consideradas,
+                 * assumindo que o usuário irá inserir as informações corretamente.
+                 
                 MySqlDataReader reader;
                 using (MySqlConnection connection = new MySqlConnection("server=localhost;user id=root;senha=;database=tcc"))
                 {
@@ -54,6 +58,7 @@ namespace Proj_TCC
                     new Form_Login().ShowDialog();
                     return -1; // Indica que o usuário não está logado
                 }
+                */
                 
             }
             catch (FileNotFoundException)
@@ -61,9 +66,9 @@ namespace Proj_TCC
                 CreateEmptyLogin(); // Cria um arquivo de login vazio
                 return -1; // Indica que o arquivo de login não foi encontrado
             }
-            catch (IOException)
+            catch (IOException ex)
             {
-                //idealmente logar o erro aqui;
+                MessageBox.Show("Erro ao ler o arquivo de login: " + ex.Message);
             }
 
             return 0; // Indica que não houve nenhum erro ao ler o arquivo de login

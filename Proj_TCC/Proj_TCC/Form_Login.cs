@@ -29,6 +29,8 @@ namespace Proj_TCC
                 string email = textBox_Email.Text.Trim();
                 string senha = textBox_Senha.Text.Trim();
 
+                /* crítica postergada: validação de email e senha; Em estágios iniciais de desenvolvimento, as validações não serão consideradas,
+                 * assumindo que o usuário irá inserir as informações corretamente.
                 MySqlDataReader reader;
                 using (MySqlConnection conexao = new MySqlConnection("server=localhost;database=tcc;uid=root;pwd='';SSL Mode = disabled"))
                 {
@@ -51,6 +53,13 @@ namespace Proj_TCC
 
                     LoginHandler.CreateLogin(int.Parse(localId), localEmail, localSenha);
                 }
+                */
+
+                // Simulação de login bem-sucedido
+                int localId = 1; // Simulação de ID do usuário
+                string localEmail = email; // Simulação de email do usuário
+                string localSenha = senha; // Simulação de senha do usuário
+                LoginHandler.CreateLogin(localId, localEmail, localSenha);
             }
             catch (Exception ex)
             {

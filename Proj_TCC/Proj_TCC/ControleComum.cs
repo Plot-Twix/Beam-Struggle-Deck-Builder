@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data.SqlClient;
-using MySql;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Text;

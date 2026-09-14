@@ -19,5 +19,22 @@ namespace Proj_TCC
         {
 
         }
+
+        private void button_FazerLogin_Click(object sender, EventArgs e)
+        {
+            string apelido = textBox_Apelido.Text.Trim();
+            string email = textBox_Email.Text.Trim();
+            string senha = textBox_Senha.Text.Trim();
+
+            if (string.IsNullOrEmpty(apelido) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(senha))
+            {
+                MessageBox.Show("Por favor, preencha todos os campos.");
+                return;
+            }
+
+            LoginHandler.CadastrarUsuario(apelido, email, senha, out string mensagem);
+            MessageBox.Show(mensagem); 
+            return;
+        }
     }
 }

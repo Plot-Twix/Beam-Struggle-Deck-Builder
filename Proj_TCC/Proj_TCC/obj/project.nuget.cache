@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hf4QlVF8+dA=",
+  "dgSpecHash": "JrBhlv9TbKA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Proj_TCC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Victor Marques\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Victor Marques\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Victor Marques\\.nuget\\packages\\google.protobuf\\3.35.0\\google.protobuf.3.35.0.nupkg.sha512",
     "C:\\Users\\Victor Marques\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",

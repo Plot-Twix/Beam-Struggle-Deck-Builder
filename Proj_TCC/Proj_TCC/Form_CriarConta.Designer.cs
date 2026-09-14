@@ -29,23 +29,25 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button_FazerLogin = new Button();
+            groupBox2 = new GroupBox();
+            textBox_Apelido = new TextBox();
             groupBox1 = new GroupBox();
-            textBox2 = new TextBox();
+            textBox_Senha = new TextBox();
             label_Login = new Label();
             groupBox_Email = new GroupBox();
-            textBox1 = new TextBox();
-            groupBox2 = new GroupBox();
-            textBox3 = new TextBox();
+            textBox_Email = new TextBox();
             panel1.SuspendLayout();
+            groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox_Email.SuspendLayout();
-            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             panel1.BackColor = SystemColors.ControlLight;
+            panel1.Controls.Add(button_FazerLogin);
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(label_Login);
@@ -55,10 +57,39 @@
             panel1.Size = new Size(412, 413);
             panel1.TabIndex = 0;
             // 
+            // button_FazerLogin
+            // 
+            button_FazerLogin.Location = new Point(128, 272);
+            button_FazerLogin.Name = "button_FazerLogin";
+            button_FazerLogin.Size = new Size(162, 39);
+            button_FazerLogin.TabIndex = 9;
+            button_FazerLogin.Text = "Criar Conta";
+            button_FazerLogin.UseVisualStyleBackColor = true;
+            button_FazerLogin.Click += button_FazerLogin_Click;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Anchor = AnchorStyles.Top;
+            groupBox2.Controls.Add(textBox_Apelido);
+            groupBox2.Location = new Point(54, 95);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(314, 53);
+            groupBox2.TabIndex = 4;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Nome de Usuário";
+            // 
+            // textBox_Apelido
+            // 
+            textBox_Apelido.Dock = DockStyle.Fill;
+            textBox_Apelido.Location = new Point(3, 19);
+            textBox_Apelido.Name = "textBox_Apelido";
+            textBox_Apelido.Size = new Size(308, 23);
+            textBox_Apelido.TabIndex = 0;
+            // 
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top;
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(textBox_Senha);
             groupBox1.Location = new Point(57, 213);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(314, 53);
@@ -66,13 +97,13 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Senha";
             // 
-            // textBox2
+            // textBox_Senha
             // 
-            textBox2.Dock = DockStyle.Fill;
-            textBox2.Location = new Point(3, 19);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(308, 23);
-            textBox2.TabIndex = 0;
+            textBox_Senha.Dock = DockStyle.Fill;
+            textBox_Senha.Location = new Point(3, 19);
+            textBox_Senha.Name = "textBox_Senha";
+            textBox_Senha.Size = new Size(308, 23);
+            textBox_Senha.TabIndex = 0;
             // 
             // label_Login
             // 
@@ -89,7 +120,7 @@
             // groupBox_Email
             // 
             groupBox_Email.Anchor = AnchorStyles.Top;
-            groupBox_Email.Controls.Add(textBox1);
+            groupBox_Email.Controls.Add(textBox_Email);
             groupBox_Email.Location = new Point(57, 154);
             groupBox_Email.Name = "groupBox_Email";
             groupBox_Email.Size = new Size(314, 53);
@@ -97,32 +128,13 @@
             groupBox_Email.TabStop = false;
             groupBox_Email.Text = "E-mail";
             // 
-            // textBox1
+            // textBox_Email
             // 
-            textBox1.Dock = DockStyle.Fill;
-            textBox1.Location = new Point(3, 19);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(308, 23);
-            textBox1.TabIndex = 0;
-            // 
-            // groupBox2
-            // 
-            groupBox2.Anchor = AnchorStyles.Top;
-            groupBox2.Controls.Add(textBox3);
-            groupBox2.Location = new Point(54, 95);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(314, 53);
-            groupBox2.TabIndex = 4;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Nome de Usuário";
-            // 
-            // textBox3
-            // 
-            textBox3.Dock = DockStyle.Fill;
-            textBox3.Location = new Point(3, 19);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(308, 23);
-            textBox3.TabIndex = 0;
+            textBox_Email.Dock = DockStyle.Fill;
+            textBox_Email.Location = new Point(3, 19);
+            textBox_Email.Name = "textBox_Email";
+            textBox_Email.Size = new Size(308, 23);
+            textBox_Email.TabIndex = 0;
             // 
             // Form_CriarConta
             // 
@@ -134,12 +146,12 @@
             Text = "Form_CriarConta";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox_Email.ResumeLayout(false);
             groupBox_Email.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -148,10 +160,11 @@
         private Panel panel1;
         private Label label_Login;
         private GroupBox groupBox_Email;
-        private TextBox textBox1;
+        private TextBox textBox_Email;
         private GroupBox groupBox1;
-        private TextBox textBox2;
+        private TextBox textBox_Senha;
         private GroupBox groupBox2;
-        private TextBox textBox3;
+        private TextBox textBox_Apelido;
+        private Button button_FazerLogin;
     }
 }

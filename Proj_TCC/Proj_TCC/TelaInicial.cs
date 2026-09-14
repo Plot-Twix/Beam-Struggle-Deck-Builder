@@ -11,6 +11,19 @@ namespace Proj_TCC
         {
             // This method is called when the form is loaded.
             // You can add any initialization code here if needed.
+
+            var sessaoService = new SessaoService();
+            int idUsuario = sessaoService.RestaurarSessao();
+
+            if (idUsuario > 0)
+            {
+                // Usuário já está logado, você pode prosseguir com a lógica do aplicativo.
+                LoginHandler.idUsuario = idUsuario;
+            }
+            else
+            {
+                new Form_Login().ShowDialog();
+            }
         }
 
         public void Lista_de_Decks_Load(object sender, EventArgs e)

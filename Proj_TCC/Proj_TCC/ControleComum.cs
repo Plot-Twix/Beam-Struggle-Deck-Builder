@@ -27,7 +27,7 @@ namespace Proj_TCC
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            new Form_Login().ShowDialog();
         }
 
         private void AbrirForm(Form form)

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             pan_Painel = new Panel();
+            checkBox_Lembrar = new CheckBox();
             button_FazerLogin = new Button();
             linkLabel_CriarConta = new LinkLabel();
             label_SemConta = new Label();
@@ -48,6 +49,7 @@
             // 
             pan_Painel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
             pan_Painel.BackColor = SystemColors.ControlLight;
+            pan_Painel.Controls.Add(checkBox_Lembrar);
             pan_Painel.Controls.Add(button_FazerLogin);
             pan_Painel.Controls.Add(linkLabel_CriarConta);
             pan_Painel.Controls.Add(label_SemConta);
@@ -61,9 +63,19 @@
             pan_Painel.Size = new Size(412, 413);
             pan_Painel.TabIndex = 0;
             // 
+            // checkBox_Lembrar
+            // 
+            checkBox_Lembrar.AutoSize = true;
+            checkBox_Lembrar.Location = new Point(58, 184);
+            checkBox_Lembrar.Name = "checkBox_Lembrar";
+            checkBox_Lembrar.Size = new Size(126, 19);
+            checkBox_Lembrar.TabIndex = 9;
+            checkBox_Lembrar.Text = "Lembre-se de mim";
+            checkBox_Lembrar.UseVisualStyleBackColor = true;
+            // 
             // button_FazerLogin
             // 
-            button_FazerLogin.Location = new Point(120, 235);
+            button_FazerLogin.Location = new Point(120, 269);
             button_FazerLogin.Name = "button_FazerLogin";
             button_FazerLogin.Size = new Size(162, 39);
             button_FazerLogin.TabIndex = 8;
@@ -94,7 +106,7 @@
             // linkLabel_RecuperarSenha
             // 
             linkLabel_RecuperarSenha.AutoSize = true;
-            linkLabel_RecuperarSenha.Location = new Point(275, 181);
+            linkLabel_RecuperarSenha.Location = new Point(275, 244);
             linkLabel_RecuperarSenha.Name = "linkLabel_RecuperarSenha";
             linkLabel_RecuperarSenha.Size = new Size(94, 15);
             linkLabel_RecuperarSenha.TabIndex = 5;
@@ -104,7 +116,7 @@
             // label_EsqueceuSenha
             // 
             label_EsqueceuSenha.AutoSize = true;
-            label_EsqueceuSenha.Location = new Point(58, 181);
+            label_EsqueceuSenha.Location = new Point(58, 244);
             label_EsqueceuSenha.Name = "label_EsqueceuSenha";
             label_EsqueceuSenha.Size = new Size(117, 15);
             label_EsqueceuSenha.TabIndex = 4;
@@ -191,5 +203,6 @@
         private LinkLabel linkLabel_CriarConta;
         private Label label_SemConta;
         private Button button_FazerLogin;
+        private CheckBox checkBox_Lembrar;
     }
 }

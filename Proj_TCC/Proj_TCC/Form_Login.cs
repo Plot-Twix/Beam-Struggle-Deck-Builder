@@ -29,37 +29,16 @@ namespace Proj_TCC
                 string email = textBox_Email.Text.Trim();
                 string senha = textBox_Senha.Text.Trim();
 
-                /* crítica postergada: validação de email e senha; Em estágios iniciais de desenvolvimento, as validações não serão consideradas,
-                 * assumindo que o usuário irá inserir as informações corretamente.
-                MySqlDataReader reader;
-                using (MySqlConnection conexao = new MySqlConnection("server=localhost;database=tcc;uid=root;pwd='';SSL Mode = disabled"))
+                LoginHandler.Login(email, senha, out int idUsuario, out string mensagem);
+                LoginHandler.idUsuario = idUsuario;
+                MessageBox.Show(mensagem);
+
+                if (checkBox_Lembrar.Checked)
                 {
-                    MySqlCommand comando = new MySqlCommand($"SELECT * FROM usuario WHERE email = '{email}' AND senha = '{senha}'", conexao);
-
-                     reader = comando.ExecuteReader();
+                    //MessageBox.Show(idUsuario.ToString());
+                    var sessaoService = new SessaoService();
+                    sessaoService.CriarSessaoPersistente(idUsuario);
                 }
-
-                if (!reader.HasRows)
-                {
-                    
-                    throw new Exception("Credenciais inválidas"); //Exceção quando as credenciais são inválidas
-                }
-                else
-                {
-                    reader.Read();
-                    string localId = reader["id_usuario"].ToString();
-                    string localEmail = reader["email"].ToString();
-                    string localSenha = reader["senha"].ToString();
-
-                    LoginHandler.CreateLogin(int.Parse(localId), localEmail, localSenha);
-                }
-                */
-
-                // Simulação de login bem-sucedido
-                int localId = 1; // Simulação de ID do usuário
-                string localEmail = email; // Simulação de email do usuário
-                string localSenha = senha; // Simulação de senha do usuário
-                LoginHandler.CreateLogin(localId, localEmail, localSenha);
             }
             catch (Exception ex)
             {

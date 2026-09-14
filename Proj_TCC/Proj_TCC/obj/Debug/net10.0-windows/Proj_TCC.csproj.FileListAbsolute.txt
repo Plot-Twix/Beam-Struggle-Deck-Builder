@@ -55,7 +55,6 @@ C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TC
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\Proj_TCC.dll
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\Proj_TCC.pdb
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\MySql.Data.dll
-C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\MySql.Data.xml
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.csproj.AssemblyReference.cache
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.BuscarCartas.resources
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.ControleComum.resources
@@ -119,3 +118,15 @@ C:\Users\aluno ct\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj
 C:\Users\aluno ct\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.csproj.Up2Date
 C:\Users\aluno ct\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.genruntimeconfig.cache
 C:\Users\aluno ct\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\ref\Proj_TCC.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\Google.Protobuf.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\ZstdSharp.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\BCrypt-Net-Next.dll

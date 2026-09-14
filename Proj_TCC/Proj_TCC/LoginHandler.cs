@@ -1,16 +1,127 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Crypto.Generators;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO.Pipelines;
 using System.Text;
-using MySql.Data.MySqlClient;
 
 namespace Proj_TCC
 {
     public static class LoginHandler
     {
+        public static int idUsuario = 0;
+        private readonly static string connectionString = "Server=127.0.0.1;Database=tcc;Uid=root;Pwd=;";
+
         static LoginHandler()
         {
             // Static constructor to initialize any static data or perform actions that need to be done once
+        }
+
+        /// <summary>
+        /// Cadastra um novo usuário na tabela `usuario`.
+        /// Retorna true se o cadastro foi concluído com sucesso.
+        /// </summary>
+        public static bool CadastrarUsuario(string apelido, string email, string senha, out string mensagem)
+        {
+            try
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+
+                    // Verifica se já existe um usuário com o mesmo e-mail
+                    string queryVerifica = "SELECT COUNT(*) FROM usuario WHERE email = @email";
+                    using (MySqlCommand cmdVerifica = new MySqlCommand(queryVerifica, conexao))
+                    {
+                        cmdVerifica.Parameters.AddWithValue("@email", email);
+                        long quantidade = (long)cmdVerifica.ExecuteScalar();
+
+                        if (quantidade > 0)
+                        {
+                            mensagem = "Já existe um usuário cadastrado com este e-mail.";
+                            return false;
+                        }
+                    }
+
+                    // Gera o hash da senha antes de armazenar (nunca salve senha em texto puro)
+                    string senhaHash = BCrypt.Net.BCrypt.HashPassword(senha);
+
+                    string queryInsere =
+                        "INSERT INTO usuario (apelido, email, senha) VALUES (@apelido, @email, @senha)";
+
+                    using (MySqlCommand cmdInsere = new MySqlCommand(queryInsere, conexao))
+                    {
+                        cmdInsere.Parameters.AddWithValue("@apelido", apelido);
+                        cmdInsere.Parameters.AddWithValue("@email", email);
+                        cmdInsere.Parameters.AddWithValue("@senha", senhaHash);
+
+                        cmdInsere.ExecuteNonQuery();
+                    }
+
+                    mensagem = "Usuário cadastrado com sucesso!";
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                mensagem = "Erro ao cadastrar usuário: " + ex.Message;
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Valida as credenciais de login contra a tabela `usuario`.
+        /// Retorna true se o login for válido e preenche o id do usuário autenticado.
+        /// </summary>
+        public static bool Login(string email, string senha, out int idUsuario, out string mensagem)
+        {
+            idUsuario = 0;
+
+            try
+            {
+                using (MySqlConnection conexao = new MySqlConnection(connectionString))
+                {
+                    conexao.Open();
+
+                    string query = "SELECT id, senha FROM usuario WHERE email = @email";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conexao))
+                    {
+                        cmd.Parameters.AddWithValue("@email", email);
+
+                        using (MySqlDataReader leitor = cmd.ExecuteReader())
+                        {
+                            if (leitor.Read())
+                            {
+                                string senhaHashArmazenada = leitor.GetString("senha");
+
+                                if (BCrypt.Net.BCrypt.Verify(senha, senhaHashArmazenada))
+                                {
+                                    idUsuario = leitor.GetInt32("id");
+                                    mensagem = "Login realizado com sucesso!";
+                                    return true;
+                                }
+                                else
+                                {
+                                    mensagem = "Senha incorreta.";
+                                    return false;
+                                }
+                            }
+                            else
+                            {
+                                mensagem = "E-mail não encontrado.";
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                mensagem = "Erro ao efetuar login: " + ex.Message;
+                return false;
+            }
         }
 
         public static int GetLoginStatus()

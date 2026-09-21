@@ -7,6 +7,9 @@
     <Compile Update="ControleComum.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Form_CriarDeck.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -16,7 +19,7 @@
     <Compile Update="Lista de Decks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Meus Decks.cs">
+    <Compile Update="Form_MeusDecks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Minha Liista.cs">

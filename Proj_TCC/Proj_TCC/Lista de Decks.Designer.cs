@@ -28,52 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox_Decks = new GroupBox();
-            dataGridView1 = new DataGridView();
-            groupBox_Decks.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox_Baralhos = new GroupBox();
+            dataGridView_Baralhos = new DataGridView();
+            groupBox_Baralhos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_Baralhos).BeginInit();
             SuspendLayout();
             // 
-            // groupBox_Decks
+            // groupBox_Baralhos
             // 
-            groupBox_Decks.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox_Decks.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            groupBox_Decks.Controls.Add(dataGridView1);
-            groupBox_Decks.Location = new Point(3, 3);
-            groupBox_Decks.Name = "groupBox_Decks";
-            groupBox_Decks.Size = new Size(635, 156);
-            groupBox_Decks.TabIndex = 0;
-            groupBox_Decks.TabStop = false;
-            groupBox_Decks.Text = "groupBox1";
-            groupBox_Decks.Enter += groupBox_Decks_Enter;
+            groupBox_Baralhos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            groupBox_Baralhos.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            groupBox_Baralhos.Controls.Add(dataGridView_Baralhos);
+            groupBox_Baralhos.Location = new Point(3, 3);
+            groupBox_Baralhos.Name = "groupBox_Baralhos";
+            groupBox_Baralhos.Size = new Size(635, 175);
+            groupBox_Baralhos.TabIndex = 0;
+            groupBox_Baralhos.TabStop = false;
+            groupBox_Baralhos.Text = "groupBox1";
+            groupBox_Baralhos.Enter += groupBox_Decks_Enter;
             // 
-            // dataGridView1
+            // dataGridView_Baralhos
             // 
-            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(6, 22);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(623, 128);
-            dataGridView1.TabIndex = 0;
+            dataGridView_Baralhos.AllowUserToAddRows = false;
+            dataGridView_Baralhos.AllowUserToDeleteRows = false;
+            dataGridView_Baralhos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView_Baralhos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView_Baralhos.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridView_Baralhos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView_Baralhos.Location = new Point(6, 22);
+            dataGridView_Baralhos.Name = "dataGridView_Baralhos";
+            dataGridView_Baralhos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView_Baralhos.Size = new Size(623, 147);
+            dataGridView_Baralhos.TabIndex = 0;
+            dataGridView_Baralhos.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Lista_de_Decks
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            Controls.Add(groupBox_Decks);
+            Controls.Add(groupBox_Baralhos);
             Name = "Lista_de_Decks";
             Size = new Size(641, 181);
-            groupBox_Decks.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            groupBox_Baralhos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView_Baralhos).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private GroupBox groupBox_Decks;
-        private DataGridView dataGridView1;
+        private GroupBox groupBox_Baralhos;
+        private DataGridView dataGridView_Baralhos;
     }
 }

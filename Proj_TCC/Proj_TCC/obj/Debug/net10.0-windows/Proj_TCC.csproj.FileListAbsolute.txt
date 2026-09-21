@@ -130,3 +130,4 @@ C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TC
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\bin\Debug\net10.0-windows\BCrypt-Net-Next.dll
+C:\Users\Victor Marques\Desktop\Segundo Clone\Beam-Struggle-Deck-Builder\Proj_TCC\Proj_TCC\obj\Debug\net10.0-windows\Proj_TCC.Form_CriarDeck.resources

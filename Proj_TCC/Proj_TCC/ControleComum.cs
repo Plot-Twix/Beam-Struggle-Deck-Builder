@@ -42,5 +42,10 @@ namespace Proj_TCC
         {
             AbrirForm(new Form_VerUsuario());
         }
+
+        private void meusDecksToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AbrirForm(new Meus_Decks());
+        }
     }
 }

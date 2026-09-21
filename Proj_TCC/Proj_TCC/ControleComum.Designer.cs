@@ -99,6 +99,7 @@
             meusDecksToolStripMenuItem1.Name = "meusDecksToolStripMenuItem1";
             meusDecksToolStripMenuItem1.Size = new Size(200, 22);
             meusDecksToolStripMenuItem1.Text = "Meus Decks";
+            meusDecksToolStripMenuItem1.Click += meusDecksToolStripMenuItem1_Click;
             // 
             // decksPúblicosToolStripMenuItem
             // 

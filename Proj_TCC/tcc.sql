@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 14, 2026 at 11:49 AM
+-- Generation Time: Sep 28, 2026 at 11:41 AM
 -- Server version: 5.7.17
 -- PHP Version: 5.6.30
 
@@ -34,19 +34,20 @@ CREATE TABLE `baralho` (
   `nome` varchar(100) DEFAULT NULL,
   `codigo_montagem` varchar(50) DEFAULT NULL,
   `favorito` tinyint(1) DEFAULT NULL,
-  `delecao_bloqueada` tinyint(1) DEFAULT NULL
+  `delecao_bloqueada` tinyint(1) DEFAULT NULL,
+  `ultima_alteracao` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `baralho`
 --
 
-INSERT INTO `baralho` (`id`, `id_usuario`, `nome`, `codigo_montagem`, `favorito`, `delecao_bloqueada`) VALUES
-(1, 1, 'Fúria Flamejante', 'MONT-001', 1, 0),
-(2, 1, 'Escudo de Pedra', 'MONT-002', 0, 0),
-(3, 2, 'Magia Lunar', 'MONT-003', 1, 0),
-(4, 3, 'Sombras da Noite', 'MONT-004', 0, 1),
-(5, 4, 'Renascimento', 'MONT-005', 1, 0);
+INSERT INTO `baralho` (`id`, `id_usuario`, `nome`, `codigo_montagem`, `favorito`, `delecao_bloqueada`, `ultima_alteracao`) VALUES
+(1, 1, 'Fúria Flamejante', 'MONT-001', 1, 0, NULL),
+(2, 1, 'Escudo de Pedra', 'MONT-002', 0, 0, NULL),
+(3, 2, 'Magia Lunar', 'MONT-003', 1, 0, NULL),
+(4, 3, 'Sombras da Noite', 'MONT-004', 0, 1, NULL),
+(5, 4, 'Renascimento', 'MONT-005', 1, 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -60,7 +61,7 @@ CREATE TABLE `carta` (
   `nome` varchar(100) DEFAULT NULL,
   `nome_arte` varchar(100) DEFAULT NULL,
   `texto` varchar(500) DEFAULT NULL,
-  `atributos_secundarios` int(11) DEFAULT NULL,
+  `atributos_secundarios` varchar(250) DEFAULT NULL,
   `vida` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -69,11 +70,20 @@ CREATE TABLE `carta` (
 --
 
 INSERT INTO `carta` (`id`, `codigo_conjunto`, `nome`, `nome_arte`, `texto`, `atributos_secundarios`, `vida`) VALUES
-(1, 'SET01', 'Dragao de Fogo', 'arte_dragao_fogo', 'Causa 500 de dano ao ser invocado.', 2, 1200),
-(2, 'SET01', 'Cavaleiro Sombrio', 'arte_cavaleiro_sombrio', 'Ganha +200 de vida em campo escuro.', 1, 900),
-(3, 'SET02', 'Feiticeira Lunar', 'arte_feiticeira_lunar', 'Cura 300 de vida ao time.', 3, 600),
-(4, 'SET02', 'Golem de Pedra', 'arte_golem_pedra', 'Reduz dano recebido em 20%%.', 1, 1500),
-(5, 'SET03', 'Fenix Renascida', 'arte_fenix_renascida', 'Revive uma vez ao ser destruida.', 2, 800);
+(1, NULL, 'Solar Beam', 'CA_SolarBeam', '[2 Fúria | \'Soco Máximo\']: Cause 50 de dano ao inimigo à frente desta unidade e 30 de dano no inimigo atrás dele.', 'Unidade, Líder', 80),
+(2, NULL, 'Vencíneliv', 'CA_Vencineliv', '[3 Fúrias | \'Explosão Máxima\']: Cause 50 de dano ao inimigo à frente desta unidade e 10 de dano as todas as outras unidades inimigas', '[Unidade | Líder]', 100),
+(3, NULL, 'Apoio Total', 'CA_ApoioTotal', 'Escolha uma unidade que não seja seu líder. Recupere 10 de vida para cada outra unidade ao redor dela.', '[Truque]', NULL),
+(4, NULL, 'Batedor', 'CA_Batedor', '[2 Energias | Golpe Furioso]: Cause 10 de dano + 10 para cada fúria que seu líder tiver ao inimigo à frente desta unidade. Então, seu líder ganha 1 fúria.', '[Unidade | Seguidor | Amarelo]', 50),
+(5, NULL, 'Casal Resmuda', 'CA_CasalResmuda', '[2 Energias | \'Problema em dobro\']: Cause 30 de dano ao inimigo à frente desta unidade ou cause 10 de dano a 3 inimigos diferentes.', '[Unidade | Seguidor | Cinza]', 40),
+(6, NULL, 'Goldpunch', 'CA_Goldpunch', '[1 Energia | \'Soco Forte\']: Cause 20 de dano ao inimigo à frente desta unidade.', '[Unidade | Seguidor | Amarelo]', 50),
+(7, NULL, 'Handshock', 'CA_Handshock', '[2 Energias | \'Shoque Interno\']: Cause 30 de dano a um seguidor inimigo na mesma coluna que esta unidade e retire 1 Energia dele ou Cause 20 de dano a um líder inimigo na mesma coluna que esta unidade e retire 1 fúria dele.', '[Unidade | Seguidor | Azul]', 40),
+(8, NULL, 'Myaló', 'CA_Myalo', '[3 Energias | \'Muita Dor de Cabeça\']: Cause 40 de dano a um inimigo na mesma coluna que esta unidade. Depois, mude a posição de todos os seguidores inimigos da maneira que preferir.', '[Unidade | Seguidor | Azul]', 40),
+(9, NULL, 'P-12G', 'CA_P12G', '[1 Energia | \'Aperto Compressor\']: Cause 10 de dano ao seguidor Amarelo ou Cinza inimigo à frente desta unidade ou cause 30 de dano ao líder ou seguidor Azul inimigo à frente desta unidade.', '[Unidade | Seguidor | Azul]', 60),
+(10, NULL, 'P-15R', 'CA_P15G', '[3 Energias | \'Triunfo Imortal\']: Cause 30 de dano ao inimigo à frente desta unidade, cure esta unidade completamente e remova todos seus efeitos negativos.', '[Unidade | Seguidor | Cinza]', 70),
+(11, NULL, 'Pnévma', 'CA_Pnevma', '[1 Energia | \'Golpe Furtivo\']: Cause 10 de dano a um inimigo na mesma coluna que esta unidade.', '[Unidade | Seguidor | Cinza]', 50),
+(12, NULL, 'Reorganizando as Coisas', 'CA_ReorganizandoAsCoisas', 'Mude a posição de todas as unidades aliadas como preferir.', '[Truque]', NULL),
+(13, NULL, 'Sóma', 'CA_Soma', '[3 Energias | \'Corrida Agressiva\']: Cause 40 de dano a todos os inimigos na mesma coluna que esta unidade, depois, se duas undades foram danificadas por este efeito, cause 10 de dano a esta unidade.', '[Unidade | Seguidor | Amarelo]', 70),
+(14, NULL, 'Trabalho em Dupla', 'CA_TrabalhoEmDupla', 'Transfira toda a energia de um seguidor aliado a outro seguidor aliado à lateral dele ou converta toda a fúria de seu líder em energia, depois, a transfira para um seguidor aliado à lateral dele.', '[Truque]', NULL);
 
 -- --------------------------------------------------------
 
@@ -251,6 +261,11 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT for dumped tables
 --
 
+--
+-- AUTO_INCREMENT for table `carta`
+--
+ALTER TABLE `carta`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `sessao_token`
 --

@@ -38,6 +38,7 @@
             label_NomeCarta = new Label();
             textBox_Busca = new TextBox();
             dataGridView_Cartas = new DataGridView();
+            Id = new DataGridViewTextBoxColumn();
             dataGridViewImageColumn1 = new DataGridViewImageColumn();
             dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
             groupBox_Baralho.SuspendLayout();
@@ -134,14 +135,22 @@
             dataGridView_Cartas.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView_Cartas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView_Cartas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView_Cartas.Columns.AddRange(new DataGridViewColumn[] { dataGridViewImageColumn1, dataGridViewTextBoxColumn1 });
+            dataGridView_Cartas.Columns.AddRange(new DataGridViewColumn[] { Id, dataGridViewImageColumn1, dataGridViewTextBoxColumn1 });
             dataGridView_Cartas.Location = new Point(6, 68);
             dataGridView_Cartas.Name = "dataGridView_Cartas";
             dataGridView_Cartas.Size = new Size(334, 368);
             dataGridView_Cartas.TabIndex = 1;
+            dataGridView_Cartas.DoubleClick += dataGridView_Cartas_DoubleClick;
+            // 
+            // Id
+            // 
+            Id.HeaderText = "Id";
+            Id.Name = "Id";
+            Id.Visible = false;
             // 
             // dataGridViewImageColumn1
             // 
+            dataGridViewImageColumn1.FillWeight = 40.60914F;
             dataGridViewImageColumn1.HeaderText = "Imagem";
             dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             dataGridViewImageColumn1.ReadOnly = true;
@@ -150,6 +159,7 @@
             // 
             // dataGridViewTextBoxColumn1
             // 
+            dataGridViewTextBoxColumn1.FillWeight = 159.390869F;
             dataGridViewTextBoxColumn1.HeaderText = "Nome";
             dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             dataGridViewTextBoxColumn1.ReadOnly = true;
@@ -186,6 +196,7 @@
         private Label label_NomeCarta;
         private TextBox textBox_Busca;
         private DataGridView dataGridView_Cartas;
+        private DataGridViewTextBoxColumn Id;
         private DataGridViewImageColumn dataGridViewImageColumn1;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
     }

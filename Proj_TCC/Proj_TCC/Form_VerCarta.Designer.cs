@@ -152,7 +152,7 @@
             Controls.Add(groupBox_Nome);
             Controls.Add(groupBox_Imagem);
             Name = "Form_VerCarta";
-            Text = "Form_VerCarta";
+            Text = "Visualizador de Carta";
             groupBox_Texto.ResumeLayout(false);
             groupBox_Tipos.ResumeLayout(false);
             groupBox_Tipos.PerformLayout();

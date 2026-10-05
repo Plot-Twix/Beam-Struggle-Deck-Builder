@@ -1,45 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\",
+  "WorkspaceRootPath": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_criardeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\vercarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_meusdecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\form_meusdecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\form_meusdecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\lista de decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\victor marques\\desktop\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\baralho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|c:\\users\\aluno ct\\downloads\\segundo clone\\segundo clone\\beam-struggle-deck-builder\\proj_tcc\\proj_tcc\\baralho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D0353F1-6D6E-F0A9-D3AE-C8DDFE52A636}|Proj_TCC\\Proj_TCC.csproj|solutionrelative:proj_tcc\\baralho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,66 +53,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAIINAAAAAAAAAAAiwJwNAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-05T11:17:28.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form_VerCarta.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Form_VerCarta.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs",
-              "RelativeToolTip": "Proj_TCC\\Form_VerCarta.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAzAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs*",
+              "RelativeToolTip": "Proj_TCC\\Form_VerCarta.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-04T22:34:54.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VerCarta.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\VerCarta.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\VerCarta.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\VerCarta.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\VerCarta.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\VerCarta.cs",
               "RelativeToolTip": "Proj_TCC\\VerCarta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-04T22:32:30.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-04T22:32:30.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SessaoService.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\SessaoService.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\SessaoService.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\SessaoService.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\SessaoService.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\SessaoService.cs",
               "RelativeToolTip": "Proj_TCC\\SessaoService.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAcwAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:47:00.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T23:47:00.439Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form_VerCarta.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Form_VerCarta.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs [Projeto]",
-              "RelativeToolTip": "Proj_TCC\\Form_VerCarta.cs [Projeto]",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_VerCarta.cs [Projeto]*",
+              "RelativeToolTip": "Proj_TCC\\Form_VerCarta.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-04T22:27:19.426Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form_CriarDeck.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Form_CriarDeck.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
               "RelativeToolTip": "Proj_TCC\\Form_CriarDeck.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwEgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,35 +132,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form_CriarDeck.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
+              "DocumentIndex": 6,
+              "Title": "Form_CriarDeck.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Form_CriarDeck.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs [Projeto]",
-              "RelativeToolTip": "Proj_TCC\\Form_CriarDeck.cs [Projeto]",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_CriarDeck.cs [Design]",
+              "RelativeToolTip": "Proj_TCC\\Form_CriarDeck.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-20T17:47:38.033Z",
-              "EditorCaption": " [Projeto]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Lista de Decks.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Lista de Decks.cs",
               "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs [Projeto]",
-              "RelativeToolTip": "Proj_TCC\\Lista de Decks.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T01:33:50.684Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-09-20T01:33:50.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form_MeusDecks.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_MeusDecks.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_MeusDecks.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Form_MeusDecks.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_MeusDecks.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Form_MeusDecks.cs",
               "RelativeToolTip": "Proj_TCC\\Form_MeusDecks.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAwwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Baralho.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Baralho.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Baralho.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Baralho.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Baralho.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Baralho.cs",
               "RelativeToolTip": "Proj_TCC\\Baralho.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,11 +179,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Lista de Decks.cs",
-              "DocumentMoniker": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
+              "DocumentMoniker": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
               "RelativeDocumentMoniker": "Proj_TCC\\Lista de Decks.cs",
-              "ToolTip": "C:\\Users\\Victor Marques\\Desktop\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
+              "ToolTip": "C:\\Users\\aluno ct\\Downloads\\Segundo Clone\\Segundo Clone\\Beam-Struggle-Deck-Builder\\Proj_TCC\\Proj_TCC\\Lista de Decks.cs",
               "RelativeToolTip": "Proj_TCC\\Lista de Decks.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
